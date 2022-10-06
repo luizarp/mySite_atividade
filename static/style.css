@@ -1,14 +1,17 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
-#app{
-  background:#b43a81;  
+
+#app {
+  background: #b43a81;
   background: linear-gradient(90deg, #b43a81 0%, #efa31b 100%);
 }
+
 .flowers {
   background: linear-gradient(90deg, #b43a81 0%, #efa31b 100%);
   background-image: url(flowers.png);
 }
+
 #app label {
   font-size: 12px;
   font-weight: bold;
@@ -17,7 +20,8 @@
   margin-bottom: 3px;
   margin-left: 15px;
 }
-#app input{
+
+#app input {
   width: 100%;
   display: block;
   border: 2px solid #b43a81;
@@ -25,42 +29,59 @@
   border-radius: 23px;
   margin-bottom: 15px;
 }
+
 #app button {
   color: #fff;
-  background-color: #efa31b;
   border: none;
   font-weight: bold;
   font-size: 12px;
   letter-spacing: 2px;
   padding: 5px 30px;
   border-radius: 25px;
-  display: flex;
-  margin: 0 auto;
 }
+
+#app .save {
+  background-color: #efa31b;
+}
+
+#app .cancel {
+  background-color: #b43a81;
+}
+
 #newPage .tracking-in-expand {
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
+
+#app .seeFlower {
+  background-color: #b43a81;
+}
+
 @-webkit-keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
     opacity: 0;
   }
+
   40% {
     opacity: 0.6;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
     opacity: 0;
   }
+
   40% {
     opacity: 0.6;
   }
+
   100% {
     opacity: 1;
   }
